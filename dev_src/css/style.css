@@ -1,0 +1,17 @@
+table {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6; }
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  -webkit-text-size-adjust: none;
+  text-decoration: none; }
+
+span {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  -webkit-text-size-adjust: none; }
+
+img {
+  display: block; }
