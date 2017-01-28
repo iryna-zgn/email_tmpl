@@ -29,11 +29,7 @@ gulp.task('clean-img', function() {
   return del.sync('dist/img');
 });
 
-gulp.task('clean-emails', function() {
-  return del.sync('dist/emails');
-});
-
-gulp.task('emailBuilder', ['clean-emails'], function() {
+gulp.task('emailBuilder', function() {
 	return gulp.src(['dev_src/*.html'])
 		.pipe(emailBuilder().build())
 		.pipe(gulp.dest('dist/emails/'));
